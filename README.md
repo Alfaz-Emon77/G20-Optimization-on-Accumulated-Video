@@ -14,6 +14,8 @@ This repository contains the implementation of **G2O-based keypoint optimization
 In many computer vision applications, such as human pose estimation and SLAM, video frames often contain occluded or missing keypoints. This project applies G2O optimization to refine keypoint localization in videos where occlusions occur, enhancing overall robustness and accuracy.
 
 ---
+**STEPS**
+MAKE DATASET -----RUN ON OPEPOSE---GENERATE KEYPOINT(X,Y,CONSTRINTS)--KEYPOINT OPTIMIZED BY G20
 
 ## Features
 
@@ -24,26 +26,9 @@ In many computer vision applications, such as human pose estimation and SLAM, vi
 
 ---
 
-## Installation
-If you want to use OpenPose without installing or writing any code, simply download and use the latest Windows portable version of OpenPose!
-
-Otherwise, you could build OpenPose from source. See the installation doc for all the alternatives.
-
-Quick Start Overview
-Simply use the OpenPose Demo from your favorite command-line tool (e.g., Windows PowerShell or Ubuntu Terminal). E.g., this example runs OpenPose on your webcam and displays the body keypoints:
-
-# Ubuntu
-./build/examples/openpose/openpose.bin
-:: Windows - Portable Demo
-bin\OpenPoseDemo.exe --video examples\media\video.avi
-You can also add any of the available flags in any order. E.g., the following example runs on a video (--video {PATH}), enables face (--face) and hands (--hand), and saves the output keypoints on JSON files on disk (--write_json {PATH}).
-
-# Ubuntu
-./build/examples/openpose/openpose.bin --video examples/media/video.avi --face --hand --write_json output_json_folder/
-:: Windows - Portable Demo
-bin\OpenPoseDemo.exe --video examples\media\video.avi --face --hand --write_json output_json_folder/
-Optionally, you can also extend OpenPose's functionality from its Python and C++ APIs. After installing OpenPose, check its official doc for a quick overview of all the alternatives and tutorials.
-
+**INSTALLATION**
+OPEPOSE DOWNLOAD FOR GENERATE KEYPOINT OF ALL VIDEO 
+https://github.com/CMU-Perceptual-Computing-Lab/openpose?tab=readme-ov-file#installation
 
 
 1. **Clone the repository:**
